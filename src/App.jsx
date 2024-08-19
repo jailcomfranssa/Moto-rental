@@ -1,5 +1,8 @@
 import React, { useEffect } from "react";
 import Navbar from "./components/Navbar/Navbar";
+import Hero from "./components/Hero/Hero";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const App = () => {
   const [theme, setTheme] = React.useState(
@@ -20,6 +23,7 @@ const App = () => {
   return (
     <div>
       <Navbar theme={theme} setTheme={setTheme} />
+      <Hero theme={theme}/>
     </div>
   );
 };
