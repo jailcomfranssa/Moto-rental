@@ -20,6 +20,15 @@ const App = () => {
     }
   }, [theme]);
 
+  React.useEffect(() => {
+    Aos.init({
+      offset: 100,
+      duration: 800 ,
+      easing: "ease-in-out-sine",
+      delay: 100
+    });
+  })
+
   return (
     <div>
       <Navbar theme={theme} setTheme={setTheme} />
