@@ -31,3 +31,5 @@ const About = () => {
 }
 
 export default About
+
+//TODO:preços que caibam no seu bolso
