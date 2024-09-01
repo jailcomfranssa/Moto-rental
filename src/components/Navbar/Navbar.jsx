@@ -1,26 +1,26 @@
-import PropTypes from "prop-types";
-import { BiSolidMoon, BiSolidSun } from "react-icons/bi";
+import PropTypes from 'prop-types';
+import { BiSolidMoon, BiSolidSun } from 'react-icons/bi';
 
 const NavLinks = [
   {
-    id: "1",
-    name: "Inicio",
-    link: "/#",
+    id: '1',
+    name: 'Inicio',
+    link: '/#',
   },
   {
-    id: "2",
-    name: "Motos",
-    link: "/#motos",
+    id: '2',
+    name: 'Motos',
+    link: '/#motos',
   },
   {
-    id: "3",
-    name: "Sobre",
-    link: "/#sobre",
+    id: '3',
+    name: 'Sobre',
+    link: '/#sobre',
   },
   {
-    id: "4",
-    name: "Booking",
-    link: "/#booking",
+    id: '4',
+    name: 'Booking',
+    link: '/#booking',
   },
 ];
 
@@ -40,7 +40,7 @@ const Navbar = ({ theme, setTheme }) => {
                     className="py-2 hover:border-b-2 hover:text-primary hover:border-primary transition-colors duration-500 text-lg font-medium"
                     href={data.link}
                   >
-                    {" "}
+                    {' '}
                     {data.name}
                   </a>
                 </li>
@@ -48,14 +48,14 @@ const Navbar = ({ theme, setTheme }) => {
             </ul>
           </div>
           <div>
-            {theme === "dark" ? (
+            {theme === 'dark' ? (
               <BiSolidSun
-                onClick={() => setTheme("light")}
+                onClick={() => setTheme('light')}
                 className="text-2xl"
               />
             ) : (
               <BiSolidMoon
-                onClick={() => setTheme("dark")}
+                onClick={() => setTheme('dark')}
                 className="text-2xl"
               />
             )}
