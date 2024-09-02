@@ -8,6 +8,7 @@ import Services from './components/Services/Services';
 import MotoList from './components/MotoList/MotoList';
 import Testimonial from './components/Testimonial/Testimonial';
 import AppStoreBanner from './components/AppStoreBanner/AppStoreBanner';
+import Contact from './components/Contact/Contact';
 
 const App = () => {
     const [theme, setTheme] = React.useState(
@@ -43,8 +44,11 @@ const App = () => {
             <MotoList />
             <Testimonial />
             <AppStoreBanner />
+            <Contact />
         </div>
     );
 };
 
 export default App;
+
+// TODO: 1:48
