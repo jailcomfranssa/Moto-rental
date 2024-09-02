@@ -43,5 +43,3 @@ const About = () => {
 };
 
 export default About;
-
-//TODO:1:11
