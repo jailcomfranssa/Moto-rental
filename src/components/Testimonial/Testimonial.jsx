@@ -1,23 +1,26 @@
 import React from 'react';
+import Img01 from '../../assets/3x4-1.jpg';
+import Img02 from '../../assets/3x4-2.jpg';
+import Img03 from '../../assets/3x4-3.jpg';
 
 const testimonialData = [
     {
         name: 'Dilshad',
-        image: '',
+        image: Img01,
         description:
             'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi suscipit ratione',
         aosDelay: '0',
     },
     {
         name: 'Satya',
-        image: '',
+        image: Img02,
         description:
             'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi suscipit ratione',
         aosDelay: '300',
     },
     {
         name: 'Sabir',
-        image: '',
+        image: Img03,
         description:
             'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi suscipit ratione',
         aosDelay: '1000',
