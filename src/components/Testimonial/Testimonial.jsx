@@ -48,6 +48,8 @@ const Testimonial = () => {
                     {testimonialData.map((data) => {
                         return (
                             <div
+                                data-aos="fade-up"
+                                data-aos-delay={data.aosDelay}
                                 key={data.name}
                                 className="card text-center group space-y-3 sm:space-y-6 p-4 bg-gray-100 dark:bg-white/20 sm:py-12 duration-300 rounded-lg"
                             >
